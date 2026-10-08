@@ -22,6 +22,7 @@ Sass source lives in `src/assets/css/site.scss` and compiles to `src/assets/css/
 
 - `src/_data/people/faculty.yaml`
 - `src/_data/people/students.yaml`
+- `src/_data/people/undergraduates.yaml`
 - `src/_data/people/affiliates.yaml`
 - `src/_data/people/alumni.yaml`
 - `src/news-items/*.md`

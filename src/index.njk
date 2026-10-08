@@ -65,6 +65,19 @@ description: MIT Architecture Research group homepage
   </div>
 </section>
 
+<section class="section" id="undergraduates">
+  <h2 class="band">
+    <span class="wrap band-inner">
+      <span class="band-title">Undergraduates</span>
+    </span>
+  </h2>
+  <div class="wrap section-body">
+    <div class="people-grid">
+      {% for person in people.undergraduates %}{{ personCard(person, false) }}{% endfor %}
+    </div>
+  </div>
+</section>
+
 {# Alumni section hidden for now. The data in src/_data/people/alumni.yaml
    and the .alumni-* styles are left in place; uncomment to restore. #}
 {#
